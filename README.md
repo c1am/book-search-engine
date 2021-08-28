@@ -7,36 +7,35 @@ This project allows users to search for books to read and also keep a record of 
 
 
 ## Prerequisites
-The user should clone the repository from GitHub. This application will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, [Sequelize](https://www.npmjs.com/package/sequelize) as the ORM, and the express-session npm package for authentication.
+The user should clone the repository from GitHub.
 
 
 ## Installation/Deployment
 Clone this repository. 
 - [Repository Link](https://github.com/c1am/book-search-engine) 
 - SSH Clone Link: `git@github.com:c1am/book-search-engine.git`
-- [Heroku Deployment Link](https://cherrys-tech-blog.herokuapp.com/)
+- [Heroku Deployment Link](https://cherrys-book-search-engine.herokuapp.com/)
 
-Install `node.js`, open the terminal and run `npm i` to install the packages below in the format of this example `npm i mysql2` for each package:
-- mysql2
-- express
-- dotenv
+Install `node.js`, open the terminal and run `npm i [package]`, replacing `[package]` for each package below:
 - bcrypt
-- sequelize
+- react
+- graphql
 - express
-- express-session
-- express-handlebars
-
-Create a database using the `schema.sql` file.
-
-In the terminal, run `mysql -u root -p < db/schema.sql`. Then enter your MySQL password. Then run `npm run seed` to populate the database with the provided sample data.
+- mongoose
+- apollo server
+- jsonwebtoken
+- node
 
 
 ## Screenshot of Deployed Application
-![Screenshot](./tech-blog.jpg)
+![Screenshot](./)
 
 ## Built With
 - Javascript
 - MySQL
+- MongoDB Atlas
+- Apollo
+- React
 
 
 ## Authors
